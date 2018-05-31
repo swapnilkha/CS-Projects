@@ -1,4 +1,5 @@
-/* Tic Tac Toe game created as part of a Java course taken at Harvard */
+/* Tic Tac Toe game created as part of a Java course taken at Harvard. This is the main class; the board class is in the 
+other file. */
 
 import java.util.Scanner;
 
