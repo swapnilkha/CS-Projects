@@ -1,4 +1,4 @@
-/* Tic Tac Toe game created as an independent project. This is the main class; the board class is in the 
+/* Tic Tac Toe. This is the main class; the board class is in the 
 other file. */
 
 import java.util.Scanner;
@@ -7,6 +7,7 @@ public class TicTacToe
 {
   public static void main(String[] args) 
   {
+      //Initialize the board
       char[][] board =
       {
       {' ', ' ', ' '},
@@ -14,6 +15,7 @@ public class TicTacToe
       {' ', ' ', ' '}
       };
       
+      //Initialize variables for row, col, players, names, and boolean done
       int row = 0;
       int col = 0;
       char c = ' ';
@@ -22,6 +24,7 @@ public class TicTacToe
       String name = " ";
       String name2 = " ";
       
+      //Create the board object
       TicTacToeBoard myBoard = new TicTacToeBoard(board, row, col, c, player);
       myBoard.toString(board);
           
@@ -31,6 +34,7 @@ public class TicTacToe
       System.out.println("Enter player two's name");
       name2 = input.nextLine();
       
+      //In do-while loop, play the game while done is false
       do 
       {
           if (player == 1)
