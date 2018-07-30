@@ -1,5 +1,4 @@
-/* Advanced Checkers is a game made as an independent project. Advanced checkers is like regular checkers,
-but in order to win either all of the opponent's pieces must be gone, OR, three of an opponent's pieces must reach the other
+/* Advanced Checkers is like regular checkers, but in order to win either all of the opponent's pieces must be gone, OR, three of an opponent's pieces must reach the other
 opponent's last row. This is the tester class, and the game class is in the other file. */
 
 
